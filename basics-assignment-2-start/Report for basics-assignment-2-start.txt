@@ -1,0 +1,2 @@
+I simply made the userName property and used event binding. So I can update my property with the input of the user. Then I made the button that calls a helper method which checks if the username is empty. 
+And if it isn't empty it becomes clickable and it resets the username.

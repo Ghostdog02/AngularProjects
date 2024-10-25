@@ -1,0 +1,8 @@
+Firstly I added a button with label Display Details. When the button is clicked it calls onDisplayDetails method. 
+This method checks if a property called details is empty. If the condition is met it changes the details property to 'Secret Password = tuna' and to empty string if the condition isn't met.
+Also it increments a property called clickNumber which shows how many times the button is clicked. Then it pushes this property to array called buttonClicks.
+After that in the HTML code I use string interpolation to output the details property. 
+In addition I use @for block - repeater to run through all elements in the buttonClicks array. 
+Secondly I use @if block conditional to check if the current number of clicks is greater than 5. 
+If this is the case I print the number of clicks and apply blue background with ngStyle and white color with ngClass.
+However if is the other case I print the number of clicks without styling.
