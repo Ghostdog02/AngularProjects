@@ -72,6 +72,3 @@ ng serve
 - Debugging Angular applications
 
 - Modular design and best practices
-
-## 📌 Course Link
-📘 Angular - The Complete Guide (2025 Edition) on Udemy
